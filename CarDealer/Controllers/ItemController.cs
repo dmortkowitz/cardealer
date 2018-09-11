@@ -25,7 +25,7 @@ namespace CarDealer.Controllers
     {
       Car newCar = new Car(Request.Form["new-item"]);
       newCar.Save();
-      string[] allCars = newCar.ResultsList(); 
+      List<Car> allCars = Car.GetAll();
       return View("Index", allCars);
     }
   }

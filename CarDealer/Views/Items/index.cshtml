@@ -1,9 +1,11 @@
 <h1>Car List</h1>
 <ul>
-  @foreach(var string in Model)
+  @foreach(var car in Model)
  {
-  <li>@string
-  </li>
+  <li>@car.ResultsList()[0]</li>
+  <li>@car.ResultsList()[1]</li>
+  <li>@car.ResultsList()[2]</li>
+  <li>@car.ResultsList()[3]</li>
  }
   </ul>
 <a href="/items/new">Add a new car.</a>
