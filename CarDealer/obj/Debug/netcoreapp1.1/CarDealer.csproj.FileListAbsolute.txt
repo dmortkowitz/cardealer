@@ -1,0 +1,9 @@
+/Users/David/Desktop/CarDealer.Solution/CarDealer/bin/Debug/netcoreapp1.1/CarDealer.deps.json
+/Users/David/Desktop/CarDealer.Solution/CarDealer/bin/Debug/netcoreapp1.1/CarDealer.runtimeconfig.json
+/Users/David/Desktop/CarDealer.Solution/CarDealer/bin/Debug/netcoreapp1.1/CarDealer.runtimeconfig.dev.json
+/Users/David/Desktop/CarDealer.Solution/CarDealer/obj/Debug/netcoreapp1.1/CarDealer.csproj.CoreCompileInputs.cache
+/Users/David/Desktop/CarDealer.Solution/CarDealer/obj/Debug/netcoreapp1.1/CarDealer.AssemblyInfo.cs
+/Users/David/Desktop/CarDealer.Solution/CarDealer/bin/Debug/netcoreapp1.1/CarDealer.dll
+/Users/David/Desktop/CarDealer.Solution/CarDealer/bin/Debug/netcoreapp1.1/CarDealer.pdb
+/Users/David/Desktop/CarDealer.Solution/CarDealer/obj/Debug/netcoreapp1.1/CarDealer.dll
+/Users/David/Desktop/CarDealer.Solution/CarDealer/obj/Debug/netcoreapp1.1/CarDealer.pdb

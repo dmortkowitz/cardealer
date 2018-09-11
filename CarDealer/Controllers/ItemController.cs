@@ -10,8 +10,8 @@ namespace CarDealer.Controllers
     [HttpGet("/items")]
     public ActionResult Index() 
     {
-      List<Item> allItems = new List<Item> {};
-      return View(allItems);
+      List<Car> allCars = new List<Car> {};
+      return View(allCars);
     }
 
     [HttpGet("/items/new")]
@@ -23,10 +23,10 @@ namespace CarDealer.Controllers
     [HttpPost("/items")]
     public ActionResult Create() 
     {
-      Item newItem = new Item(Request.Form["new-item"]);
-      newItem.Save();
-      List<Item> allItems = Item.GetAll(); 
-      return View("Index", allItems);
+      Car newCar = new Car(Request.Form["new-item"]);
+      newCar.Save();
+      string[] allCars = newCar.ResultsList(); 
+      return View("Index", allCars);
     }
   }
 }

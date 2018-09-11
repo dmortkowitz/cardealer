@@ -15,6 +15,12 @@ namespace CarDealer.Models
     {
       return _description;
     }
+    public string[] ResultsList()
+    {
+      string[] descriptionString = _description.Split(',');
+      return descriptionString;
+      
+    }
     public void SetDescription(string newDescription)
     {
       _description = newDescription;
