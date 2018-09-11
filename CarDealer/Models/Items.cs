@@ -7,6 +7,8 @@ namespace CarDealer.Models
   {
     private string _description;
     private static List<Car> _instances = new List<Car> {};
+    
+
     public Car (string description)
     {
       _description = description;
@@ -33,9 +35,9 @@ namespace CarDealer.Models
     {
       _instances.Add(this); 
     }
-    // public static void ClearAll()
-    // {
-    //   _instances.Clear();
-    // }
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
   }
 }
